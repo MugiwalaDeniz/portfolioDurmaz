@@ -1,0 +1,224 @@
+
+body
+{
+  background-image: url(https://wallpaperaccess.com/full/1761712.jpg) ;
+}
+
+nav ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4169E1;
+  color: white;
+}
+
+nav ul li:first-child 
+{
+  background-color: #4169E1;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  font-style: normal;
+}
+
+nav ul li 
+{
+  width: 10cm;
+  float: left;
+  border-right:1px solid blue;
+  color: rgb(22, 79, 145)
+}
+
+nav ul li:last-child
+{
+	border-right: none;
+	float:left;
+}
+
+nav ul li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover:not(.first)
+{
+  background-color: white;
+  color: black;
+}
+
+footer
+{
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #4169E1;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 20cm;
+}
+
+p, h1, H2
+{
+  line-height: 23px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow:0.1em 0.1em 0.2em black;
+}
+
+div
+{
+  color: white;
+  padding-top: 5cm;
+  text-align: center;
+  font-size: 25px;
+}
+#citation
+{
+  font-style: italic;
+  color: white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+  
+}
+
+#txtlycée
+{
+   color: white;
+   text-align: center;
+}
+h3
+{
+  margin-top: -150px;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+h4
+{
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#txtBUT
+{
+  height: 10px;
+   color: white;
+  text-align: center;
+}
+
+
+#SCOLAIRE
+{
+  margin-bottom: 20px;
+  margin-top: auto;
+  font-size: 1cm;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+
+#imgBUT
+{
+  width : 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+video
+{
+  padding-top: 20px;
+  display: block;
+  width: 500px;
+  height: auto;
+  margin:0 auto 35px auto ;
+}
+#moi
+ {
+   width: 200px;
+   top: 1cm;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 50%;
+ }
+
+ #vsc
+ {
+   width: auto;
+   height: 150px;
+ }
+ #txtVSC
+ {
+    text-align: center;
+ }
+
+ #W3C
+ {
+   text-align: 20px;
+   margin-top: 2px;
+   
+ }
+ 
+ #architecture
+ {
+     height: 300px;
+     width: 500px;
+ }
+ #txtR
+ {
+   
+    color: white;
+    text-align: center;
+
+ }
+
+
+@media screen and (min-width: 1280px) 
+{
+	nav ul li 
+	{
+		float: left;
+		border-right:1px solid #BBBBBB;
+	}
+		
+	nav ul li:last-child
+	{
+		border-right: none;
+		float:right;
+	}
+}
+
+
+@media screen and (max-width: 640px) 
+{
+	nav ul li 
+	{
+		float: none;
+		width: 100%;
+		border-right: none;
+	}
+	nav ul li a 
+	{
+		padding: 1px;
+	}
+	section#first 
+	{
+		padding-top: 300px;
+	}
+	section 
+	{
+		padding-top: 5px;
+		padding-right: 15px;
+	}
+	.image-responsive 
+	{
+		max-width: 100%;
+		height: auto;
+    }
+}
